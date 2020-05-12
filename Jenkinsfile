@@ -8,7 +8,6 @@ pipeline {
         
             steps {
                 echo 'Building the application.....'
-                npm install
             }
            
         }
