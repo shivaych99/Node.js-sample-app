@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Building the application.....'
                 bat "npm install"
-                bat "ng build"
+                bat "jar cvf ../ZicbBanking.war *"
             }
            
         }
